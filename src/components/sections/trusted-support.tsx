@@ -1,40 +1,51 @@
-import { Container } from "@/components/ui/container"
-import { Section } from "@/components/ui/section"
+import { Container } from "@/components/ui/container";
+import { Section } from "@/components/ui/section";
 
 const supportFeatures = [
   {
     icon: "🎧",
     title: "Support section",
-    description: "A dedicated area providing assistance and resources for customer inquiries and troubleshooting."
+    description:
+      "A dedicated area providing assistance and resources for customer inquiries and troubleshooting.",
   },
   {
     icon: "📞",
     title: "24/7 Phone Support",
-    description: "Around-the-clock phone support service, available 24 hours a day, 7 days a week, ensuring customers can get help anytime they need it."
+    description:
+      "Around-the-clock phone support service, available 24 hours a day, 7 days a week, ensuring customers can get help anytime they need it.",
   },
   {
     icon: "⭐",
     title: "97%+ Customer Satisfaction",
-    description: "A high customer satisfaction rating, with over 97% of customers expressing positive feedback about the service."
+    description:
+      "A high customer satisfaction rating, with over 97% of customers expressing positive feedback about the service.",
   },
   {
     icon: "🌍",
     title: "Team members in 6 continents around the world",
-    description: "A global team presence, with staff located across six continents, providing diverse and widespread support."
-  }
-]
+    description:
+      "A global team presence, with staff located across six continents, providing diverse and widespread support.",
+  },
+];
 
 export function TrustedSupport() {
   return (
-    <Section className="bg-gradient-to-br from-teal-50 via-cyan-50 to-teal-100" padding="xl">
+    <Section
+      className="bg-gradient-to-br from-teal-50 via-cyan-50 to-teal-100"
+      padding="xl"
+    >
       <Container>
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-            <span className="text-orange-500">Trusted</span> By Thousands Of Successful Vacation Rental Property Managers <span className="text-orange-500">Globally</span>
+            <span className="text-orange-500">Trusted</span> By Thousands Of
+            Successful Vacation Rental Property Managers{" "}
+            <span className="text-orange-500">Globally</span>
           </h2>
           <p className="text-base text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            Don't take our word for it though. Ask your colleagues, your friends or visit any review site or online group. Our customers are our proud ambassadors!
+            Don&apos;t take our word for it though. Ask your colleagues, your
+            friends or visit any review site or online group. Our customers are
+            our proud ambassadors!
           </p>
         </div>
 
@@ -56,7 +67,7 @@ export function TrustedSupport() {
                   </h3>
                 </div>
               </div>
-              
+
               {/* Description */}
               <p className="text-sm text-gray-700 leading-relaxed pl-16">
                 {feature.description}
@@ -66,5 +77,5 @@ export function TrustedSupport() {
         </div>
       </Container>
     </Section>
-  )
+  );
 }

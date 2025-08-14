@@ -1,7 +1,6 @@
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
 
 const customerStories = [
   {

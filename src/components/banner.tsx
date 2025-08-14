@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import { X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
@@ -10,13 +9,8 @@ interface BannerProps {
   onClose?: () => void;
 }
 
-export function Banner({ className, onClose }: BannerProps) {
-  const [isVisible, setIsVisible] = React.useState(true);
-
-  const handleClose = () => {
-    setIsVisible(false);
-    onClose?.();
-  };
+export function Banner({ className }: BannerProps) {
+  const [isVisible] = React.useState(true);
 
   if (!isVisible) return null;
 

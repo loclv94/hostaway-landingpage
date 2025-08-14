@@ -38,12 +38,13 @@ export function Integrations() {
 
             <div className="space-y-4">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                Hostaway has the industry's strongest and most reliable
+                Hostaway has the industry&apos;s strongest and most reliable
                 integrations but more financial partnerships with OTAs means
-                you'll never have a double booking. That gives you the
+                you&apos;ll never have a double booking. That gives you the
                 confidence to list on more channels and earn more than the
-                comfort of the Hostaway Dashboard. If you're a PMS, we can help
-                you get best-in-class Open API integrations to make it your own.
+                comfort of the Hostaway Dashboard. If you&apos;re a PMS, we can
+                help you get best-in-class Open API integrations to make it your
+                own.
               </p>
             </div>
           </div>
